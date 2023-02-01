@@ -1,0 +1,40 @@
+<head>
+    <title>
+Payment Mode    
+    </title>
+</head>
+<body>
+    <form action="">
+        <h1>Payememt Form</h1>
+        <h2>Contact Information</h2>
+        <p>Name:* <input type="text" name="name"></p>
+            <fieldset>
+                <legend>Gender</legend>
+            <p>
+            Male <input type="radio" name="gender" id="male">
+            Female <input type="radio" name="gender" id="female">
+            </p>
+            </fieldset>
+            <p>Address:<textarea name="address" id="address" cols="100" rows="8"></textarea> </p>
+            <p>Email: <input type="email" name="email" id="email"> </p>
+            <p>Pincode: <input type="number" name="Pincode" id="Pincode"> </p>
+            <hr>
+            <h2>Payment Information</h2>
+            <p>Card Type:
+                <select name="card_type" id="card_type">
+                <option value="">--Select a card type--</option>
+                <option value="visa">VISA</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="Rupay">Rupay</option>
+             </select>
+            </p>
+            <p>
+                Cr\ard Number <input type="number" name="card_number" id="card_number">
+            </p>
+            <p>
+                Expiration Date :<input type="date" name="exp_date" id="card_number">
+            </p>
+            <p>CVV <input type="password" name="cvv" id="cvv" maxlength="3" ></p>
+            <input type="submit" values="Pay Now">
+    </form>
+</body>
